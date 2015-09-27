@@ -1,0 +1,43 @@
+{
+    "name": "slush-styde",
+    "description": "Basic slush generator that scaffolds and empty project using Jade and Stylus (NIB and Rupture)",
+    "version": "0.1.0",
+    "homepage": "https://github.com/qix1986/slush-styde",
+    "author": {
+        "name": "Diego Rocha",
+        "email": "qix1986@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/qix1986/slush-styde.git"
+    },
+    "bugs": {
+        "url": "https://github.com/qix1986/slush-styde/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/qix1986/slush-styde/blob/master/LICENSE"
+    }],
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "slush": ">=1.0.0",
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.8.0",
+        "iniparser": "^1.0.5"
+    },
+    "keywords": [
+        "slushgenerator"
+    ]
+}
