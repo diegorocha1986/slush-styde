@@ -38,6 +38,10 @@
         "iniparser": "^1.0.5"
     },
     "keywords": [
-        "slushgenerator"
+        "slushgenerator",
+        "jade",
+        "stylus",
+        "nib",
+        "rupture"
     ]
 }

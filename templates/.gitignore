@@ -1,0 +1,7 @@
+node_modules
+build
+assets/css
+.git
+.DS_Store
+*.html
+sprite.png

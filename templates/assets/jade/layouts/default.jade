@@ -1,0 +1,17 @@
+doctype html
+<html lang="en">
+head
+  meta(charset="utf-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+  title #{title}
+  <!--[if lt IE 9]>
+  script(src="assets/js/html5shiv.min.js")
+  <![endif]-->
+  link(rel='stylesheet', href='assets/css/style.css')
+body
+
+  block content
+  
+  block scripts
+    script(src="assets/js/jquery-1.11.3.min.js")
+    script(src="assets/js/scripts.js")
