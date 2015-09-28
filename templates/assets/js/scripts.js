@@ -19,6 +19,6 @@
     }
   }
 
-  Azul.init.call();
+  APP.init.call();
 
 })(window, document, jQuery);
