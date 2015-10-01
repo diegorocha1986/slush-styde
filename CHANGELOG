@@ -1,3 +1,13 @@
+v0.2.1:
+  date: 2015-10-01
+  changes:
+    - Adding CHANGELOG.
+
+v0.2.0:
+  date: 2015-10-01
+  changes:
+    - Adding imagemin task but still not incorporated in the flow.
+
 v0.1.0:
   date: 2015-9-27
   changes:
