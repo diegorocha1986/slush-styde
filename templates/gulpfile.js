@@ -6,13 +6,16 @@ var gulp      = require('gulp'),
   plumber     = require('gulp-plumber'),
   nib         = require('nib'),
   rupture     = require('rupture'),
-  jade        = require('gulp-jade');
+  jade        = require('gulp-jade'),
+  imagemin    = require('gulp-imagemin'),
+  pngquant    = require('imagemin-pngquant');
 
 var path = {
   js: ['assets/js/**/*.js', '!assets/js/**/*.min.js'],
   stylus: ['assets/stylus/**/*.styl'],
   css: ['assets/css/**/*.css', '!assets/css/**/*.min.css'],
-  img: ['assets/img/*'],
+  img: ['assets/img/*.*'],
+  imgSprite: ['assets/img/sprites/*.*'],
   jade: ['assets/jade/**/*.jade', 'assets/jade/layouts/*.jade', 'assets/jade/includes/*.jade'],
   jadeCompile: ['assets/jade/**/*.jade', '!assets/jade/layouts/*.jade', '!assets/jade/includes/*.jade'],
   html: ['**/*.html']
@@ -20,7 +23,7 @@ var path = {
 
 gulp.task('sprite', function() {
   var spriteData = 
-    gulp.src('assets/img/sprites/*.*')
+    gulp.src(path.imgSprite)
     .pipe(spritesmith({
       imgPath: '../img/sprite.png',
       imgName: 'sprite.png',
@@ -44,6 +47,16 @@ gulp.task('templates', function() {
     }))
     .pipe(gulp.dest('./'))
     .pipe(connect.reload());
+});
+
+gulp.task('imagemin', function () {
+  return gulp.src(path.img)
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest(path.img));
 });
 
 gulp.task('stylus', function () {
