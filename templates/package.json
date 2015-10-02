@@ -29,6 +29,8 @@
     "gulp.spritesmith": "^4.1.0",
     "nib": "^1.1.0",
     "run-sequence": "^0.3.6",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-pngquant": "^4.2.0",
     "rupture": "^0.6.1"
   }
 }

@@ -31,11 +31,9 @@
   "dependencies": {
     "gulp": "^3.6.2",
     "gulp-conflict": "^0.1.1",
-    "gulp-imagemin": "^2.3.0",
     "gulp-install": "^0.1.4",
     "gulp-rename": "^1.2.0",
     "gulp-template": "^0.1.1",
-    "imagemin-pngquant": "^4.2.0",
     "iniparser": "^1.0.5",
     "inquirer": "^0.8.0",
     "slush": ">=1.0.0",
