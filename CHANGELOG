@@ -1,3 +1,8 @@
+v0.2.2:
+  date: 2015-10-02
+  changes:
+    - Moving gulp-imagemin and imagemin-pngquant dependencies to the right package.json.
+
 v0.2.1:
   date: 2015-10-01
   changes:
