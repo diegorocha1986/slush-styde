@@ -81,6 +81,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('watch', function () {
+  gulp.watch(path.imgSprite, ['sprite']);
   gulp.watch(path.stylus, ['stylus']);
   gulp.watch(path.jade, ['templates']);
 });
