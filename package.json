@@ -1,7 +1,7 @@
 {
   "name": "slush-styde",
   "description": "Basic slush generator that scaffolds and empty project using Jade and Stylus (NIB and Rupture)",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "homepage": "https://github.com/qix1986/slush-styde",
   "author": {
     "name": "Diego Rocha",
