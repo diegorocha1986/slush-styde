@@ -1,7 +1,6 @@
-(function(win, doc, $, undefined){
-  
+export default function(){
   var APP = {
-    init : function(){
+    init : () => {
       APP.bind.init.call();
     },
     vars : {
@@ -11,8 +10,8 @@
     plugins : {
     },
     bind : {
-      init: function(){
-        
+      init: () => {
+        console.log("APP Initiated!");
       }
     },
     functions : {
@@ -20,5 +19,4 @@
   }
 
   APP.init.call();
-
-})(window, document, jQuery);
+}
