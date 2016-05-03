@@ -1,3 +1,11 @@
+v1.0.0:
+  date: 2016-05-03
+  changes:
+    - Complete overhaul
+    - Changing from gulp-connect to browser-sync
+    - Uses now ES2015 and browserify
+    - Update some dependencies
+
 v0.3.1:
   date: 2016-02-01
   changes:
