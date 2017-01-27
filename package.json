@@ -1,6 +1,6 @@
 {
   "name": "slush-styde",
-  "description": "Basic slush generator that scaffolds and empty project using Jade and Stylus (NIB and Rupture)",
+  "description": "Basic slush generator that scaffolds and empty project using Pug and Stylus (NIB and Rupture)",
   "version": "1.0.0",
   "homepage": "https://github.com/qix1986/slush-styde",
   "author": {

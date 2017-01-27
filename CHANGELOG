@@ -1,3 +1,8 @@
+v1.0.1:
+  date: 2017-01-27
+  changes:
+    - Fixing some errors on pug template.
+
 v1.0.0:
   date: 2016-05-03
   changes:
