@@ -1,7 +1,7 @@
 {
   "name": "slush-styde",
   "description": "Basic slush generator that scaffolds and empty project using Pug and Stylus (NIB and Rupture)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/qix1986/slush-styde",
   "author": {
     "name": "Diego Rocha",
