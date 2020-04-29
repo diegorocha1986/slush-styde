@@ -41,7 +41,7 @@
     "gulp.spritesmith": "^6.2.1",
     "imagemin-pngquant": "^5.0.0",
     "jeet": "^6.1.2",
-    "jquery": "^2.2.3",
+    "jquery": "^3.5.0",
     "nib": "^1.1.0",
     "run-sequence": "^1.1.5",
     "rupture": "^0.6.1"
